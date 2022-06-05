@@ -13,21 +13,24 @@ To complete this analysis, we use different Supervised Machine Learning procedur
 ## Results
 The LendingClub dataset contained 115,675 loan applications in the first quarter 2019 (1Q19). Loan Status was to determine if the application was considered a low or high risk. Applications that had current as the loan status were classified as low risk and the remaining applications as high risk. The dataset was condensed to to 68,817 applications with 99% of the applications classified low risk.
 
-Image
 
 The data was split using the 75/25% method for training vs. testing.  51,366 applications were listed as low risk and 246 were categorized as high risk in to the training set.
-Image
+
+![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/65252712f949bf3523f7bacf0f80a67000612adc/Images/Screen%20Shot%202022-06-04%20at%207.10.28%20PM.png)<br>
+
 ## Deliverable 1: Use Resampling Models to Predict Credit Risk
 ### Oversampling
 The RandomOverSampler Model results classified 51,366 records each as High Risk and Low Risk.
 
-Image
+![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/65252712f949bf3523f7bacf0f80a67000612adc/Images/Screen%20Shot%202022-06-04%20at%207.10.55%20PM.png)<br>
+
+![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/65252712f949bf3523f7bacf0f80a67000612adc/Images/Screen%20Shot%202022-06-04%20at%207.11.21%20PM.png)<br>
 - Calculated balanced accuracy score: 79%.
-Image
+
 - The precision rate for High Risk was 1% with a recall of 70% giving this model an F1 score of 2%.
 - The precision rate for Low Risk was of 100% and recall of 61%.
-Image
-Image
+
+![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/65252712f949bf3523f7bacf0f80a67000612adc/Images/Screen%20Shot%202022-06-04%20at%207.12.31%20PM.png)<br>
 ## Synthetic Minority Oversampling Technique (SMOTE)
 
 - Calculated balanced accuracy score: 66% only slightly higher.
