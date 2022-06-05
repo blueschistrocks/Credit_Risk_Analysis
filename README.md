@@ -34,12 +34,12 @@ The RandomOverSampler Model results classified 51,366 records each as High Risk 
 ## Synthetic Minority Oversampling Technique (SMOTE)
 
 - Calculated balanced accuracy score: 66% only slightly higher.
-Image
+![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/5b25dff920e7bc0779aa056a4578fa6d76734464/Images/Screen%20Shot%202022-06-04%20at%207.14.09%20PM.png)<br>
+
 The precision rates were only slightly different than the first model.
 - The precision rate for High Risk was 1% with a recall of 63% giving this model an F1 score of 2%.
 - The precision rate for Low Risk was of 100% and recall of 69%.
-Image
-Image
+![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/5b25dff920e7bc0779aa056a4578fa6d76734464/Images/Screen%20Shot%202022-06-04%20at%207.14.50%20PM.png)<br>
 ### Undersampling
 The undersampling model classified High Risk and Low Risk records as 246 each.
 
