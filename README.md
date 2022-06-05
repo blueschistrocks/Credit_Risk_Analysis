@@ -43,39 +43,49 @@ The precision rates were only slightly different than the first model.
 ### Undersampling
 The undersampling model classified High Risk and Low Risk records as 246 each.
 
-Image
-- Calculated balanced accuracy score: 54.5% lower than the above models
-Image
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.15.17%20PM.png)<br>
+
+- Calculated balanced accuracy score: 54.5% lower than the above models.
+
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.15.31%20PM.png)<br>
+
 - The precision rate for High Risk was 1% with a recall of 69% giving this model an F1 score of 1%.
 - The precision rate for Low Risk was of 100% and recall of 40%.
-Image
-Image
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.16.19%20PM.png)<br> 
+
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
-###Combination (Over and Under) Sampling
+### Combination (Over and Under) Sampling
 The SMOTEENN model classified 68,460 records as High Risk and 62,011 as Low Risk.
 
-Image
-- Calculated balanced accuracy score: 65% 
-Image
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.16.36%20PM.png)<br>
+
+- Calculated balanced accuracy score: 65%.
+
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.16.47%20PM.png)<br>
+
 - The precision rate for High Risk was 1% with a recall of 72% giving this model an F1 score of 2%.
 - The precision rate for Low Risk was of 100% and recall of 57%.
-Image
-Image
+
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.16.56%20PM.png)<br>
+
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 #### BalancedRandomForestClassifier Model
 
 The BalancedRandomForestClassifier classified 51,366 as High Risk and 246 as Low Risk.
 
-Image
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.17.44%20PM.png)<br>
+
 - The calculated balanced accuracy score: 79%, which is higher than the above models. 
-Image
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.17.52%20PM.png)<br>
+
 - The precision rate for High Risk was 3% with a recall of 70% giving this model an F1 score of 6%.
 - The precision rate for Low Risk was of 100% and recall of 87%.
 - The total_rec_prncp feature was at 7.9% of the total.
 
-Image
-Image
-Image
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.18.20%20PM.png)<br>
+
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.18.45%20PM.png)<br>
+
 #### EasyEnsembleClassifier Model
 
 - The calculated balanced accuracy score: 93%, which is higher than all the models. 
