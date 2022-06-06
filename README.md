@@ -88,14 +88,19 @@ The BalancedRandomForestClassifier classified 51,366 as High Risk and 246 as Low
 
 #### EasyEnsembleClassifier Model
 
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/5ab108f66920136cda5a408a30662d25f733e0be/Images/Screen%20Shot%202022-06-04%20at%207.19.41%20PM.png)<br>
+
 - The calculated balanced accuracy score: 93%, which is higher than all the models. 
+
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/5ab108f66920136cda5a408a30662d25f733e0be/Images/Screen%20Shot%202022-06-04%20at%207.19.51%20PM.png)<br>
 
 - The precision rate for High Risk was 9% with a recall of 92% giving this model an F1 score of 16%.
 - The precision rate for Low Risk was of 100% and recall of 94%.
-Image
-Image
+
+![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/5ab108f66920136cda5a408a30662d25f733e0be/Images/Screen%20Shot%202022-06-04%20at%207.20.01%20PM.png)<br>
+
 ### Summary
-Of the six models, the EasyEnsembleClassifer model provided the highest accuracy rate of ?? with a rate of precision of predicting High Risk and low risk candidates at ?? and ??, respectively.  The high risk and low risk recall or sensitivity rate was ?? and ?? respectively. These were also the highest rated of all of the six models. 
+Of the six models, the EasyEnsembleClassifer model provided the highest accuracy rate of 93% with a rate of precision of predicting high risk and low risk candidates at 9% and 100%, respectively.  The high risk and low risk recall or sensitivity rate was 92 and 94 respectively. These were also the highest rated of all of the six models. 
 
 Based on the results I would recommend the EasyEnsembleClassifer model to perform these types of analysis.
 
