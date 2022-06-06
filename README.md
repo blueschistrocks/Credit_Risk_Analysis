@@ -20,37 +20,39 @@ The data was split using the 75/25% method for training vs. testing.  51,366 app
 
 ## Deliverable 1: Use Resampling Models to Predict Credit Risk
 ### Oversampling
-The RandomOverSampler Model results classified 51,366 records each as High Risk and Low Risk.
+The RandomOverSampler Model results classified 51,366 records each as high risk and low risk applications.
 
 ![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/65252712f949bf3523f7bacf0f80a67000612adc/Images/Screen%20Shot%202022-06-04%20at%207.10.55%20PM.png)<br>
 
 ![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/65252712f949bf3523f7bacf0f80a67000612adc/Images/Screen%20Shot%202022-06-04%20at%207.11.21%20PM.png)<br>
-- Calculated balanced accuracy score: 79%.
+- Calculated balanced accuracy score: 64%.
 
-- The precision rate for High Risk was 1% with a recall of 70% giving this model an F1 score of 2%.
-- The precision rate for Low Risk was of 100% and recall of 61%.
+- The precision rate for high risk was 1% with a recall of 70% giving this model an F1 score of 2%.
+- The precision rate for low risk was of 100% and recall of 61%.
 
 ![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/65252712f949bf3523f7bacf0f80a67000612adc/Images/Screen%20Shot%202022-06-04%20at%207.12.31%20PM.png)<br>
-## Synthetic Minority Oversampling Technique (SMOTE)
 
-- Calculated balanced accuracy score: 66% only slightly higher.
+## Synthetic Minority Oversampling Technique (SMOTE)<br>
+
+- Calculated balanced accuracy score: 66%, whcih is only slightly higher.
 ![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/5b25dff920e7bc0779aa056a4578fa6d76734464/Images/Screen%20Shot%202022-06-04%20at%207.14.09%20PM.png)<br>
 
 The precision rates were only slightly different than the first model.
-- The precision rate for High Risk was 1% with a recall of 63% giving this model an F1 score of 2%.
-- The precision rate for Low Risk was of 100% and recall of 69%.
+- The precision rate for high risk was 1% with a recall of 63% giving this model an F1 score of 2%.
+- The precision rate for low risk was of 100% and recall of 69%.
 ![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/5b25dff920e7bc0779aa056a4578fa6d76734464/Images/Screen%20Shot%202022-06-04%20at%207.14.50%20PM.png)<br>
+
 ### Undersampling
-The undersampling model classified High Risk and Low Risk records as 246 each.
+The undersampling model classified high risk and low risk applications as 246 each.
 
 ![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.15.17%20PM.png)<br>
 
-- Calculated balanced accuracy score: 54.5% lower than the above models.
+- Calculated balanced accuracy score: 54.5%, which is lower than the above models.
 
 ![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.15.31%20PM.png)<br>
 
-- The precision rate for High Risk was 1% with a recall of 69% giving this model an F1 score of 1%.
-- The precision rate for Low Risk was of 100% and recall of 40%.
+- The precision rate for high risk was 1% with a recall of 69% giving this model an F1 score of 1%.
+- The precision rate for low risk was of 100% and recall of 40%.
 ![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.16.19%20PM.png)<br> 
 
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
@@ -63,8 +65,8 @@ The SMOTEENN model classified 68,460 records as High Risk and 62,011 as Low Risk
 
 ![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.16.47%20PM.png)<br>
 
-- The precision rate for High Risk was 1% with a recall of 72% giving this model an F1 score of 2%.
-- The precision rate for Low Risk was of 100% and recall of 57%.
+- The precision rate for high risk was 1% with a recall of 72% giving this model an F1 score of 2%.
+- The precision rate for low risk was of 100% and recall of 57%.
 
 ![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.16.56%20PM.png)<br>
 
@@ -78,8 +80,8 @@ The BalancedRandomForestClassifier classified 51,366 as High Risk and 246 as Low
 - The calculated balanced accuracy score: 79%, which is higher than the above models. 
 ![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.17.52%20PM.png)<br>
 
-- The precision rate for High Risk was 3% with a recall of 70% giving this model an F1 score of 6%.
-- The precision rate for Low Risk was of 100% and recall of 87%.
+- The precision rate for high risk was 3% with a recall of 70% giving this model an F1 score of 6%.
+- The precision rate for low risk was of 100% and recall of 87%.
 - The total_rec_prncp feature was at 7.9% of the total.
 
 ![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b3c1816d1233b25ad574b54d4fae7c69bcfe70ec/Images/Screen%20Shot%202022-06-04%20at%207.18.20%20PM.png)<br>
@@ -94,16 +96,16 @@ The BalancedRandomForestClassifier classified 51,366 as High Risk and 246 as Low
 
 ![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/5ab108f66920136cda5a408a30662d25f733e0be/Images/Screen%20Shot%202022-06-04%20at%207.19.51%20PM.png)<br>
 
-- The precision rate for High Risk was 9% with a recall of 92% giving this model an F1 score of 16%.
-- The precision rate for Low Risk was of 100% and recall of 94%.
+- The precision rate for high risk was 9% with a recall of 92% giving this model an F1 score of 16%.
+- The precision rate for low risk was of 100% and recall of 94%.
 
 ![Image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/5ab108f66920136cda5a408a30662d25f733e0be/Images/Screen%20Shot%202022-06-04%20at%207.20.01%20PM.png)<br>
 
 ### Summary
-Of the six models, the EasyEnsembleClassifer model provided the highest accuracy rate of 93% with a rate of precision of predicting high risk and low risk candidates at 9% and 100%, respectively.  The high risk and low risk recall or sensitivity rate was 92 and 94 respectively. These were also the highest rated of all of the six models. 
+Of the six models, the EasyEnsembleClassifer model provided the highest accuracy rate of 93% with a rate of precision of predicting high risk and low risk applications at 9% and 100%, respectively.  The high risk and low risk recall or sensitivity rate was 92 and 94 respectively. These were also the highest rated of all of the six models. 
 
 Based on the results I would recommend the EasyEnsembleClassifer model to perform these types of analysis.
 
-For future analysis would be use a different data set. The LendingClub dataset had 99% of the applications classified as low risk with only 1% of the data classified in the high risk category. Machine Learning algorithms using a dataset like this one may cause a skew in the results by creating groups from a dataset that is has a very small number of High Risk applications. 
+For future analysis a different dataset with higher numbers of high risk applications would be more Appropriate. The LendingClub dataset had 99% of the applications classified as low risk with only 1% of the data classified in the high risk category. Machine Learning algorithms using a dataset like this one may cause a skew in the results by creating groups from a dataset that is has a very small number of high risk applications. 
 
 
