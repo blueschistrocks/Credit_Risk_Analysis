@@ -108,4 +108,7 @@ Based on the results I would recommend the EasyEnsembleClassifer model to perfor
 
 For future analysis a different dataset with higher numbers of high risk applications would be more Appropriate. The LendingClub dataset had 99% of the applications classified as low risk with only 1% of the data classified in the high risk category. Machine Learning algorithms using a dataset like this one may cause a skew in the results by creating groups from a dataset that is has a very small number of high risk applications. 
 
+### Links to Challenge
 
+
+[credit_risk_resampling.ipynb](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b764fbe203c0fc17faf8937758d57b6bf968f6ee/resources/credit_risk_resampling.ipynb)
