@@ -110,5 +110,9 @@ For future analysis a different dataset with higher numbers of high risk applica
 
 ### Links to Challenge
 
-
 [credit_risk_resampling.ipynb](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/b764fbe203c0fc17faf8937758d57b6bf968f6ee/resources/credit_risk_resampling.ipynb)
+
+[credit_risk_ensemble_1.ipynb](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/a0ade52277f7895c81539bb0910c4dd14b472c85/resources/credit_risk_ensemble_1.ipynb)
+
+[credit_risk_ensemble_2.ipynb](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/a0ade52277f7895c81539bb0910c4dd14b472c85/resources/credit_risk_ensemble_2.ipynb)
+
