@@ -1,4 +1,4 @@
-## Overview
+## Analysis Overview
 This analysis was conducted to understand how to utilize Machine Learning statistical algorithms for making predictions based on patterns in the dataset provided from LendingClub, a lending service company. 
 
 To complete this analysis, we use different Supervised Machine Learning procedures to train and evaluate the data with unbalanced classes. The dataset has an unbalanced classification problem due to many good loans over the lower amount of risky loans. To balance out the classifications, allow for more insightful predictions and increase the accuracy score, various Machine Learning algorithms to resample the data were employed. The following algorithms were used:
